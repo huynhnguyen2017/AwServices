@@ -10,7 +10,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
-@Path("/api/v1/compressing")
+@Path("/v1/compressing")
 public class CompressingHandler {
 
     @Inject
