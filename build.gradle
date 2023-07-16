@@ -9,6 +9,11 @@ repositories {
 }
 
 dependencies {
+    implementation("io.quarkus:quarkus-spring-data-jpa")
+    // https://mvnrepository.com/artifact/io.quarkus/quarkus-jdbc-postgresql
+    implementation 'io.quarkus:quarkus-jdbc-postgresql:3.2.0.Final'
+
+
     implementation 'io.quarkus:quarkus-container-image-docker'
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
 
